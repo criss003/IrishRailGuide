@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		284A962F1C3B257F00DAFF9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 284A962E1C3B257F00DAFF9D /* main.m */; };
+		284A96321C3B257F00DAFF9D /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 284A96311C3B257F00DAFF9D /* AppDelegate.mm */; };
+		284A96381C3B257F00DAFF9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284A96361C3B257F00DAFF9D /* Main.storyboard */; };
+		284A963A1C3B257F00DAFF9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284A96391C3B257F00DAFF9D /* Assets.xcassets */; };
+		284A963D1C3B258000DAFF9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284A963B1C3B257F00DAFF9D /* LaunchScreen.storyboard */; };
+		284A96571C3B2BFB00DAFF9D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 284A96561C3B2BFB00DAFF9D /* libz.tbd */; };
+		284A96641C3B338400DAFF9D /* TBXML+HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 284A96601C3B338400DAFF9D /* TBXML+HTTP.m */; };
+		284A96651C3B338400DAFF9D /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 284A96621C3B338400DAFF9D /* TBXML.m */; };
+		284A96681C3B35C800DAFF9D /* IrishRailXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 284A96671C3B35C800DAFF9D /* IrishRailXMLParser.m */; };
+		289FA8BE1C3B3DBF00BED4F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289FA8BD1C3B3DBF00BED4F3 /* UIKit.framework */; };
+		289FA8C01C3B3DCC00BED4F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289FA8BF1C3B3DCC00BED4F3 /* Foundation.framework */; };
+		289FA8C41C3B455800BED4F3 /* IrishRailStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 289FA8C31C3B455800BED4F3 /* IrishRailStation.m */; };
+		28BDC0511C3C59C3006E143A /* IrishRailTrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BDC0501C3C59C2006E143A /* IrishRailTrain.m */; };
+		28BDC05D1C3C63CF006E143A /* IrishRailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BDC0591C3C63CF006E143A /* IrishRailViewController.m */; };
+		28BDC05E1C3C63CF006E143A /* IrishRailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BDC05C1C3C63CF006E143A /* IrishRailTableViewCell.m */; };
+		28BDC0611C3C6595006E143A /* IrishRailStationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BDC0601C3C6595006E143A /* IrishRailStationsViewController.m */; };
+		28E761FA1C3C86FF00656884 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E761F91C3C86FF00656884 /* refresh.png */; };
+		28E761FC1C3C887C00656884 /* launchImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28E761FB1C3C887C00656884 /* launchImage.jpg */; };
+		28F5D2CF1C48590500C1A8C0 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F5D2CE1C48590500C1A8C0 /* libstdc++.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		284A962A1C3B257F00DAFF9D /* IrishRailGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IrishRailGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		284A962E1C3B257F00DAFF9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		284A96301C3B257F00DAFF9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		284A96311C3B257F00DAFF9D /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		284A96371C3B257F00DAFF9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		284A96391C3B257F00DAFF9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		284A963C1C3B257F00DAFF9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		284A963E1C3B258000DAFF9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		284A96561C3B2BFB00DAFF9D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		284A965F1C3B338400DAFF9D /* TBXML+HTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML+HTTP.h"; sourceTree = "<group>"; };
+		284A96601C3B338400DAFF9D /* TBXML+HTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBXML+HTTP.m"; sourceTree = "<group>"; };
+		284A96611C3B338400DAFF9D /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
+		284A96621C3B338400DAFF9D /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
+		284A96661C3B35C800DAFF9D /* IrishRailXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IrishRailXMLParser.h; sourceTree = "<group>"; };
+		284A96671C3B35C800DAFF9D /* IrishRailXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IrishRailXMLParser.m; sourceTree = "<group>"; };
+		289FA8B81C3B3D2100BED4F3 /* IrishRailGuide-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IrishRailGuide-Prefix.pch"; sourceTree = "<group>"; };
+		289FA8BD1C3B3DBF00BED4F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		289FA8BF1C3B3DCC00BED4F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		289FA8C21C3B455800BED4F3 /* IrishRailStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IrishRailStation.h; sourceTree = "<group>"; };
+		289FA8C31C3B455800BED4F3 /* IrishRailStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IrishRailStation.m; sourceTree = "<group>"; };
+		28BDC04F1C3C59C2006E143A /* IrishRailTrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IrishRailTrain.h; sourceTree = "<group>"; };
+		28BDC0501C3C59C2006E143A /* IrishRailTrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IrishRailTrain.m; sourceTree = "<group>"; };
+		28BDC0561C3C6226006E143A /* IrishRailConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IrishRailConstants.h; sourceTree = "<group>"; };
+		28BDC0581C3C63CF006E143A /* IrishRailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IrishRailViewController.h; sourceTree = "<group>"; };
+		28BDC0591C3C63CF006E143A /* IrishRailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IrishRailViewController.m; sourceTree = "<group>"; };
+		28BDC05B1C3C63CF006E143A /* IrishRailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IrishRailTableViewCell.h; sourceTree = "<group>"; };
+		28BDC05C1C3C63CF006E143A /* IrishRailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IrishRailTableViewCell.m; sourceTree = "<group>"; };
+		28BDC05F1C3C6595006E143A /* IrishRailStationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IrishRailStationsViewController.h; sourceTree = "<group>"; };
+		28BDC0601C3C6595006E143A /* IrishRailStationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IrishRailStationsViewController.m; sourceTree = "<group>"; };
+		28E761F91C3C86FF00656884 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
+		28E761FB1C3C887C00656884 /* launchImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launchImage.jpg; sourceTree = "<group>"; };
+		28F5D2CE1C48590500C1A8C0 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		284A96271C3B257F00DAFF9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F5D2CF1C48590500C1A8C0 /* libstdc++.tbd in Frameworks */,
+				289FA8C01C3B3DCC00BED4F3 /* Foundation.framework in Frameworks */,
+				289FA8BE1C3B3DBF00BED4F3 /* UIKit.framework in Frameworks */,
+				284A96571C3B2BFB00DAFF9D /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		284A96211C3B257F00DAFF9D = {
+			isa = PBXGroup;
+			children = (
+				284A962C1C3B257F00DAFF9D /* IrishRailGuide */,
+				28E761F81C3C86FF00656884 /* Resources */,
+				289FA8BC1C3B3D9E00BED4F3 /* Frameworks */,
+				284A962B1C3B257F00DAFF9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		284A962B1C3B257F00DAFF9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				284A962A1C3B257F00DAFF9D /* IrishRailGuide.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		284A962C1C3B257F00DAFF9D /* IrishRailGuide */ = {
+			isa = PBXGroup;
+			children = (
+				28BDC0551C3C6219006E143A /* Utils */,
+				289FA8C11C3B43D500BED4F3 /* Model */,
+				284A96441C3B28CD00DAFF9D /* XMLParser */,
+				28BDC0571C3C63CF006E143A /* ViewControllers */,
+				28BDC05A1C3C63CF006E143A /* Views */,
+				284A96301C3B257F00DAFF9D /* AppDelegate.h */,
+				284A96311C3B257F00DAFF9D /* AppDelegate.mm */,
+				284A96361C3B257F00DAFF9D /* Main.storyboard */,
+				284A96391C3B257F00DAFF9D /* Assets.xcassets */,
+				284A963B1C3B257F00DAFF9D /* LaunchScreen.storyboard */,
+				284A963E1C3B258000DAFF9D /* Info.plist */,
+				284A962D1C3B257F00DAFF9D /* Supporting Files */,
+			);
+			path = IrishRailGuide;
+			sourceTree = "<group>";
+		};
+		284A962D1C3B257F00DAFF9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				289FA8B81C3B3D2100BED4F3 /* IrishRailGuide-Prefix.pch */,
+				284A962E1C3B257F00DAFF9D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		284A96441C3B28CD00DAFF9D /* XMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				284A965C1C3B338400DAFF9D /* TBXML */,
+				284A96661C3B35C800DAFF9D /* IrishRailXMLParser.h */,
+				284A96671C3B35C800DAFF9D /* IrishRailXMLParser.m */,
+			);
+			path = XMLParser;
+			sourceTree = "<group>";
+		};
+		284A965C1C3B338400DAFF9D /* TBXML */ = {
+			isa = PBXGroup;
+			children = (
+				284A965F1C3B338400DAFF9D /* TBXML+HTTP.h */,
+				284A96601C3B338400DAFF9D /* TBXML+HTTP.m */,
+				284A96611C3B338400DAFF9D /* TBXML.h */,
+				284A96621C3B338400DAFF9D /* TBXML.m */,
+			);
+			path = TBXML;
+			sourceTree = "<group>";
+		};
+		289FA8BC1C3B3D9E00BED4F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28F5D2CE1C48590500C1A8C0 /* libstdc++.tbd */,
+				289FA8BF1C3B3DCC00BED4F3 /* Foundation.framework */,
+				289FA8BD1C3B3DBF00BED4F3 /* UIKit.framework */,
+				284A96561C3B2BFB00DAFF9D /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		289FA8C11C3B43D500BED4F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				289FA8C21C3B455800BED4F3 /* IrishRailStation.h */,
+				289FA8C31C3B455800BED4F3 /* IrishRailStation.m */,
+				28BDC04F1C3C59C2006E143A /* IrishRailTrain.h */,
+				28BDC0501C3C59C2006E143A /* IrishRailTrain.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		28BDC0551C3C6219006E143A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				28BDC0561C3C6226006E143A /* IrishRailConstants.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		28BDC0571C3C63CF006E143A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				28BDC0581C3C63CF006E143A /* IrishRailViewController.h */,
+				28BDC0591C3C63CF006E143A /* IrishRailViewController.m */,
+				28BDC05F1C3C6595006E143A /* IrishRailStationsViewController.h */,
+				28BDC0601C3C6595006E143A /* IrishRailStationsViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		28BDC05A1C3C63CF006E143A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				28BDC05B1C3C63CF006E143A /* IrishRailTableViewCell.h */,
+				28BDC05C1C3C63CF006E143A /* IrishRailTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		28E761F81C3C86FF00656884 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28E761FB1C3C887C00656884 /* launchImage.jpg */,
+				28E761F91C3C86FF00656884 /* refresh.png */,
+			);
+			name = Resources;
+			path = IrishRailGuide/Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		284A96291C3B257F00DAFF9D /* IrishRailGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 284A96411C3B258000DAFF9D /* Build configuration list for PBXNativeTarget "IrishRailGuide" */;
+			buildPhases = (
+				284A96261C3B257F00DAFF9D /* Sources */,
+				284A96271C3B257F00DAFF9D /* Frameworks */,
+				284A96281C3B257F00DAFF9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IrishRailGuide;
+			productName = DARTGuide;
+			productReference = 284A962A1C3B257F00DAFF9D /* IrishRailGuide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		284A96221C3B257F00DAFF9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Criss;
+				TargetAttributes = {
+					284A96291C3B257F00DAFF9D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 284A96251C3B257F00DAFF9D /* Build configuration list for PBXProject "IrishRailGuide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 284A96211C3B257F00DAFF9D;
+			productRefGroup = 284A962B1C3B257F00DAFF9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				284A96291C3B257F00DAFF9D /* IrishRailGuide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		284A96281C3B257F00DAFF9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E761FC1C3C887C00656884 /* launchImage.jpg in Resources */,
+				284A963D1C3B258000DAFF9D /* LaunchScreen.storyboard in Resources */,
+				28E761FA1C3C86FF00656884 /* refresh.png in Resources */,
+				284A963A1C3B257F00DAFF9D /* Assets.xcassets in Resources */,
+				284A96381C3B257F00DAFF9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		284A96261C3B257F00DAFF9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BDC0611C3C6595006E143A /* IrishRailStationsViewController.m in Sources */,
+				284A96651C3B338400DAFF9D /* TBXML.m in Sources */,
+				284A96681C3B35C800DAFF9D /* IrishRailXMLParser.m in Sources */,
+				284A96641C3B338400DAFF9D /* TBXML+HTTP.m in Sources */,
+				28BDC05E1C3C63CF006E143A /* IrishRailTableViewCell.m in Sources */,
+				284A96321C3B257F00DAFF9D /* AppDelegate.mm in Sources */,
+				28BDC05D1C3C63CF006E143A /* IrishRailViewController.m in Sources */,
+				284A962F1C3B257F00DAFF9D /* main.m in Sources */,
+				289FA8C41C3B455800BED4F3 /* IrishRailStation.m in Sources */,
+				28BDC0511C3C59C3006E143A /* IrishRailTrain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		284A96361C3B257F00DAFF9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				284A96371C3B257F00DAFF9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		284A963B1C3B257F00DAFF9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				284A963C1C3B257F00DAFF9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		284A963F1C3B258000DAFF9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		284A96401C3B258000DAFF9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		284A96421C3B258000DAFF9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "IrishRailGuide/IrishRailGuide-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/IrishRailGuide/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = criss.com.DARTGuide;
+				PRODUCT_NAME = IrishRailGuide;
+			};
+			name = Debug;
+		};
+		284A96431C3B258000DAFF9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "IrishRailGuide/IrishRailGuide-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/IrishRailGuide/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = criss.com.DARTGuide;
+				PRODUCT_NAME = IrishRailGuide;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		284A96251C3B257F00DAFF9D /* Build configuration list for PBXProject "IrishRailGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				284A963F1C3B258000DAFF9D /* Debug */,
+				284A96401C3B258000DAFF9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		284A96411C3B258000DAFF9D /* Build configuration list for PBXNativeTarget "IrishRailGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				284A96421C3B258000DAFF9D /* Debug */,
+				284A96431C3B258000DAFF9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 284A96221C3B257F00DAFF9D /* Project object */;
+}
