@@ -1,6 +1,8 @@
 # IrishRailGuide
 A guide for Irish Rail
 
+Find out the timetables for Dart and Trains on each station from Dublin
+
 Technical choices:
 
 - I choose TBXML because it is the fastest XML Parser and it uses less memory (source: http://www.raywenderlich.com/553/xml-tutorial-for-ios-how-to-choose-the-best-xml-parser-for-your-iphone-project)
