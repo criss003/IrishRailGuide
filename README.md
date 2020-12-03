@@ -1,5 +1,5 @@
 # IrishRailGuide
-A guide for Irish Rail
+A guide for Irish Rail  
 
 Find out the timetables for Dart and Trains on each station from Dublin
 
